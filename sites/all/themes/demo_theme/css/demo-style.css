@@ -1,0 +1,88 @@
+/**
+ * @file
+ * General css for the Demo theme.
+ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  font: 30px/1.4em arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+h1 {
+  margin: 0 0 1em 0;
+  font: 700 48px/1.4em arial, sans-serif;
+}
+
+h2 {
+  margin: 2em 0 1em 0;
+  font: 700 36px/1.4em arial, sans-serif;
+}
+
+p {
+  max-width: 38em;
+  margin: 0 0 1em 0;
+}
+
+#sidebar-first {
+  float: left;
+  height: 100%;
+  width: 15%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-right: 1px solid #888;
+  font: 24px/1.4em arial, sans-serif;
+  background: #fff;
+}
+
+#sidebar-first ul.menu {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar-first ul.menu a {
+  text-decoration: none;
+  color: #777;
+  padding: 1.2em;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+#sidebar-first ul.menu li {
+  list-style-type: square;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+#sidebar-first ul.menu a.active {
+  background: -moz-linear-gradient(top, #f60, #f30);
+  color: #fff;
+}
+
+#main > #content {
+  float: left;
+  height: 100%;
+  width: 85%;
+  padding: 0;
+  margin: 0;
+}
+
+#main, #demo-content {
+  height: 100%;
+}
+
+#content-front {
+  padding: 1em;
+  margin: 1em;
+}
+
+#content-front .front-link {
+  margin-bottom: 0.5em;
+}

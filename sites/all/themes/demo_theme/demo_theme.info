@@ -1,0 +1,12 @@
+name = Demo theme
+description = A theme that can be used to show demo content in the main content area with a content menu in the right sidebar.
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/demo-style.css
+
+regions[page_top] = Page top
+regions[help] = Help
+regions[sidebar_first] = First sidebar
+regions[content] = Main Content area
+regions[page_bottom] = Page bottom

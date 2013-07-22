@@ -1,0 +1,77 @@
+/**
+ * @file
+ * Following classes is supposed to be used in the content editor to format the 
+ * content showed in a demoscreen.
+ */
+
+.demo-content-wrapper {
+  height: 100%;
+  padding: 3em;
+  background: url(/sites/all/themes/demo_theme/images/pling.png)
+              top right no-repeat #fff;
+}
+
+.demo-image-wrapper {
+  height: 100%;
+  text-align: center;
+  background: #fff;
+  padding: 2.2em;
+}
+
+.demo-image {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.demo-info-text {
+  font-weight: 700;
+  font-style: normal;
+  color: #f50;
+}
+
+.demo-bold {
+  font-weight: bold;
+}
+
+.demo-fade {
+  font: 24px/1.4em arial, sans-serif;
+  color: #777;
+} 
+
+.demo-right {
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+}
+
+.demo-screenshot {
+  max-width: 500px;
+  border: 1px solid #333;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+}
+
+.demo-btn {
+  display: inline-block;
+  border: 1px solid #c30;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  padding: 0.4em 0.8em;
+  font: 24px/1.5em arial, sans-serif;
+  background: -moz-linear-gradient(top, #f60, #f30);
+  color: #fff;
+  text-decoration: none;
+}
+
+.demo-list-unordered {
+  padding: 0 0 0 1em;
+}
+
+.demo-list-unordered li {
+  list-style-type: square;
+  margin: 1.2em 0 0 0;
+  padding: 0 0 0 1em;
+}
+
+.demo-space {
+  padding: 0.7em;
+}
